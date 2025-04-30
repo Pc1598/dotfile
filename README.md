@@ -10,7 +10,7 @@ makepkg -si
 
 3. Install required pakages 
 ```sh
-yay -Syu waybar hyprpaper rofi-wayland nm-connection-editor bluez bluez-util blueman pavucontrol brightnessctl gvfs-mtp ttf-jetbrains-mono-nerd hyprshot arc-gtk-theme 
+yay -Syu waybar hyprpaper rofi-wayland nm-connection-editor bluez bluez-util blueman pavucontrol brightnessctl gvfs-mtp ttf-jetbrains-mono-nerd hyprshot arc-gtk-theme wl-screenrec
 ```
 
 4. Install Packages of my choice 
