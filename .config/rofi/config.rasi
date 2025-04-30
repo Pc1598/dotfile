@@ -1,0 +1,11 @@
+@theme "/usr/share/rofi/themes/arthur.rasi"
+
+configuration {
+    font:                               "JetBrainsMono Nerd Font";
+    show-icons:                         true;
+}
+
+listview {
+    lines:                          10;
+    columns:                        3;
+}
