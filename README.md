@@ -10,9 +10,15 @@ makepkg -si
 
 3. Install required pakages 
 ```sh
-yay -Syu waybar hyprpaper rofi-wayland nm-connection-editor bluez bluez-util blueman pavucontrol brightnessctl gvfs-mtp ttf-jetbrains-mono-nerd hyprshot 
+yay -Syu waybar hyprpaper rofi-wayland nm-connection-editor bluez bluez-util blueman pavucontrol brightnessctl gvfs-mtp ttf-jetbrains-mono-nerd hyprshot arc-gtk-theme 
 ```
+
 4. Install Packages of my choice 
 ```sh
 yay -Syu amberol fen zen-browser-bin thunar
+```
+
+5. GTK Theme 
+```sh
+gsettings set org.gnome.desktop.interface gtk-theme Arc-Dark
 ```

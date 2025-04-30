@@ -1,11 +1,19 @@
 @theme "/usr/share/rofi/themes/arthur.rasi"
 
+* {
+    font:                           "JetBrainsMono Nerd Font 14";
+}
+
 configuration {
-    font:                               "JetBrainsMono Nerd Font";
-    show-icons:                         true;
+    show-icons:                     true;
+}
+
+inputbar {
+    border-color:  		    #808080;
 }
 
 listview {
-    lines:                          10;
+    border-color:  		    #808080;
+    lines:                          15;
     columns:                        3;
 }

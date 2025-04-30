@@ -44,11 +44,11 @@
 		"format-wifi": "{icon}",
 		"format-ethernet": "",
 		"format-linked": "󰄡",
-		"format-disconnected": "",
+		"format-disconnected": "󰤮",
 		"tooltip-format": "{essid} ({signalStrength}%) - {gwaddr}",
 		"tooltip-format-ethernet": "{ifname} - {gwaddr}",
 		"tooltip-format-disconnected": "Disconnected",
-		"on-click": "nm-connection-editor"
+		"on-click": "kitty -e nmtui"
 	},
 	"bluetooth": {
 		"format": "󰂯",
