@@ -12,7 +12,8 @@ makepkg -si
 ```sh
 yay -Syu waybar hyprpaper hypridle hyprlock hyprshot rofi-wayland \
  nm-connection-editor bluez bluez-utils blueberry pavucontrol \
- brightnessctl gvfs-mtp ttf-jetbrains-mono-nerd arc-gtk-theme wl-screenrec
+ brightnessctl gvfs-mtp ttf-jetbrains-mono-nerd arc-gtk-theme \
+ wl-screenrec power-profiles-daemon
 ```
 
 4. Install Packages of my choice 
