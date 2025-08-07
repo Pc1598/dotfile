@@ -15,6 +15,7 @@
 		"battery",
                 "backlight",
 		"temperature",
+		"custom/powerDraw",
 		"pulseaudio",
 		"clock"
 	],
@@ -91,6 +92,12 @@
 		"format": " {temperatureC}°C",
 		"critical-threshold": 80,
 		"format-critical": " {temperatureC}°C"
+	},
+	"custom/powerDraw": {
+		"format": "{}",
+		"interval": 3,
+		"exec": "~/.config/waybar/scripts/powerdraw.sh",
+		"return-type": "json"
 	},
 	"pulseaudio": {
 		"format": "{icon} {volume}%",

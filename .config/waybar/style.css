@@ -52,6 +52,7 @@ tooltip label {
 #network,
 #bluetooth,
 #temperature,
+#custom-powerDraw,
 #workspaces,
 #backlight {
     padding: 0px 5px;
