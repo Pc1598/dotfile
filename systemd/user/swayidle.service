@@ -1,0 +1,14 @@
+[Unit]
+PartOf=graphical-session.target
+After=graphical-session.target
+Requisite=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/swayidle -w \
+  timeout 180 'loginctl lock-session' \
+  timeout 240 'niri msg action power-off-monitors' \
+  resume 'niri msg action power-on-monitors' \
+  timeout 540 'bash -c "! pgrep steam && systemctl suspend"' \
+  before-sleep 'swaylock -f' \
+  lock 'swaylock -f'
+Restart=on-failure
