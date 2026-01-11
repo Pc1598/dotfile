@@ -17,4 +17,4 @@ sleep 1
 
 # Record with timestamped filename (with audio)
 dateTime=$(date +%m-%d-%Y-%H-%M-%S)
-wl-screenrec --audio --audio-device alsa_output.pci-0000_00_1f.3.analog-stereo.monitor -f "$HOME/Videos/$dateTime.mp4"
+wl-screenrec --audio --audio-device alsa_output.pci-0000_00_1f.3.analog-stereo.monitor --codec hevc -f "$HOME/Videos/$dateTime.mp4"
